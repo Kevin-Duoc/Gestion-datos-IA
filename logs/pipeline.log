@@ -2,3 +2,26 @@
 2026-04-23 17:19:42,293 - INFO - Ingesta exitosa. Archivos guardados en c:\Users\VI-Alumno\Downloads\PIPELINE-VR\src\..\data\raw
 2026-04-23 17:39:02,739 - INFO - Iniciando la limpieza de datos de Realidad Virtual
 2026-04-23 17:39:02,747 - INFO - Limpieza exitosa. Archivo guardado en c:\Users\VI-Alumno\Downloads\PIPELINE-VR\src\..\data\processed\vr_clean.csv
+2026-04-29 14:14:57,371 - INFO - Iniciando la limpieza de datos de Realidad Virtual
+2026-04-29 14:14:57,379 - INFO - Limpieza exitosa. Archivo guardado en c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\vr_clean.csv
+2026-04-29 14:16:58,943 - INFO - Iniciando la limpieza de datos de Realidad Virtual
+2026-04-29 14:16:58,951 - INFO - Limpieza exitosa. Archivo guardado en c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\vr_clean.csv
+2026-04-29 14:19:41,649 - INFO - Iniciando validación y limpieza...
+2026-04-29 14:19:41,652 - INFO - Validación estructural y semántica completada con éxito.
+2026-04-29 14:19:41,657 - INFO - Proceso finalizado. Archivo guardado en c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\vr_clean.csv
+2026-04-29 14:20:21,459 - INFO - Conectando a Kaggle para descargar: aakashjoshi123/virtual-reality-experiences
+2026-04-29 14:21:31,107 - INFO - Iniciando validación y limpieza...
+2026-04-29 14:21:31,111 - INFO - Validación estructural y semántica completada con éxito.
+2026-04-29 14:21:31,116 - INFO - Proceso finalizado. Archivo guardado en c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\vr_clean.csv
+2026-04-29 14:23:36,715 - INFO - Iniciando proceso en validacion.py
+2026-04-29 14:23:36,718 - INFO - Validación estructural y semántica exitosa.
+2026-04-29 14:23:36,724 - INFO - Archivo validado y guardado en: c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\vr_clean.csv
+2026-04-29 14:25:16,664 - INFO - Conectando a Kaggle para descargar: aakashjoshi123/virtual-reality-experiences
+2026-04-29 14:25:27,340 - ERROR - Error en la conexión a Kaggle: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-29 14:25:39,495 - INFO - Conectando a Kaggle para descargar: aakashjoshi123/virtual-reality-experiences
+2026-04-29 14:25:45,211 - INFO - Ingesta exitosa. Archivos guardados en c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\raw
+2026-04-29 14:25:55,036 - INFO - Iniciando la limpieza de datos de Realidad Virtual
+2026-04-29 14:25:55,044 - INFO - Limpieza exitosa. Archivo guardado en c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\vr_clean.csv
+2026-04-29 14:26:31,772 - INFO - Iniciando proceso en validacion.py
+2026-04-29 14:26:31,775 - INFO - Validación estructural y semántica exitosa.
+2026-04-29 14:26:31,781 - INFO - Archivo validado y guardado en: c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\vr_clean.csv

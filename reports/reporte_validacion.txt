@@ -1,0 +1,8 @@
+REPORTE FINAL DE VALIDACIÓN
+===========================
+Registros procesados: 1000
+Errores críticos: 0
+Advertencias: 0
+
+
+Estado final: ARCHIVO PROCESADO EXITOSAMENTE
