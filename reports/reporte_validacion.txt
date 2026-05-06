@@ -1,4 +1,4 @@
-REPORTE FINAL DE VALIDACIÓN
+REPORTE FINAL DE VALIDACION
 ===========================
 Registros procesados: 1000
 Errores críticos: 0

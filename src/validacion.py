@@ -18,7 +18,7 @@ def validar_y_reportar():
     errores_encontrados = []
     advertencias_semanticas = []
     
-    print("--- INICIANDO PROCESO DE VALIDACIÓN ---")
+    print("--- INICIANDO PROCESO DE VALIDACION ---")
     
     try:
         if not os.path.exists(archivo_sucio):
@@ -51,7 +51,7 @@ def validar_y_reportar():
                 advertencias_semanticas.append(f"Hay {len(mareo_invalido)} filas con MotionSickness fuera de rango.")
 
             if advertencias_semanticas:
-                print("\n⚠️ ADVERTENCIAS SEMÁNTICAS:")
+                print("\n⚠️ ADVERTENCIAS SEMANTICAS:")
                 for adv in advertencias_semanticas: print(f"   - {adv}")
             else:
                 print("✅ Lógica semántica: OK")
@@ -69,7 +69,7 @@ def validar_y_reportar():
             
             # 4. GENERAR ARCHIVO DE REPORTE
             with open(archivo_reporte, 'w', encoding='utf-8') as f:
-                f.write("REPORTE FINAL DE VALIDACIÓN\n")
+                f.write("REPORTE FINAL DE VALIDACION\n")
                 f.write("===========================\n")
                 f.write(f"Registros procesados: {len(df)}\n")
                 f.write(f"Errores críticos: {len(errores_encontrados)}\n")
@@ -84,7 +84,7 @@ def validar_y_reportar():
             print(f"📄 Reporte generado: {archivo_reporte}")
 
     except Exception as e:
-        print(f"❌ Error crítico durante la validación: {e}")
+        print(f"❌ Error crítico durante la validacion: {e}")
 
 if __name__ == "__main__":
     validar_y_reportar()

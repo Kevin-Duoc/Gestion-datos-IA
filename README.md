@@ -7,6 +7,7 @@ Este proyecto implementa un pipeline de datos automatizado para la ingesta y lim
 * `/data/processed/`: Contiene el dataset limpio y transformado (`vr_clean.csv`).
 * `/src/ingesta.py`: Script que se conecta a Kaggle, autentica el token y descarga los datos automáticamente.
 * `/src/limpieza.py`: Script que procesa los datos crudos aplicando transformaciones.
+* `/src/Carga.py`: Script que se conecta hacia la base de datos y carga los datos en la tabla respectiva
 * `/logs/`: Almacena el registro de ejecución del pipeline (`pipeline.log`).
 
 ## Transformaciones Aplicadas (Limpieza)
