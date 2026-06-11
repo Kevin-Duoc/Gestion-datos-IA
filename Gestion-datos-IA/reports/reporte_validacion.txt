@@ -1,0 +1,8 @@
+REPORTE FINAL DE VALIDACIÓN: PREVISIÓN DE ABANDONO
+==================================================
+Registros procesados: 400
+Errores críticos de estructura: 0
+Advertencias semánticas: 0
+
+
+Estado final: ARCHIVO LIMPIADO, TRANSFORMADO Y PROCESADO EXITOSAMENTE

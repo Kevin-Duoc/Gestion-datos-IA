@@ -1,0 +1,78 @@
+2026-06-11 17:28:29,523 - INFO - === Iniciando Pipeline de Procesamiento y Modelado ===
+2026-06-11 17:28:29,523 - INFO - Cargando datos desde: c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\raw\abandono_escolar_dataset.csv
+2026-06-11 17:28:29,525 - INFO - Datos cargados exitosamente. Forma del dataset: (400, 10)
+2026-06-11 17:28:29,526 - INFO - Proporción de la variable objetivo (abandono):
+abandono
+0    0.59
+1    0.41
+2026-06-11 17:28:29,526 - INFO - Iniciando preprocesamiento de datos...
+2026-06-11 17:28:29,526 - INFO - Columna 'id' eliminada.
+2026-06-11 17:28:29,527 - INFO - One-hot encoding aplicado a: ['beca', 'apoyo_sociofamiliar']
+2026-06-11 17:28:29,529 - INFO - Variables numéricas normalizadas.
+2026-06-11 17:28:29,532 - INFO - Datos divididos: Entrenamiento (280 filas), Prueba (120 filas)
+2026-06-11 17:28:29,532 - INFO - Entrenando el modelo de Regresión Logística...
+2026-06-11 17:28:29,534 - INFO - Entrenamiento finalizado.
+2026-06-11 17:28:29,534 - INFO - Evaluando el modelo con el conjunto de prueba...
+2026-06-11 17:28:29,537 - INFO - Matriz de Confusión:
+[[49 24]
+ [29 18]]
+2026-06-11 17:28:29,537 - INFO - Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+           0       0.63      0.67      0.65        73
+           1       0.43      0.38      0.40        47
+
+    accuracy                           0.56       120
+   macro avg       0.53      0.53      0.53       120
+weighted avg       0.55      0.56      0.55       120
+
+2026-06-11 17:30:46,761 - INFO - --- Iniciando fase de limpieza: Abandono Escolar ---
+2026-06-11 17:30:46,764 - INFO - Columna 'id' eliminada correctamente.
+2026-06-11 17:30:46,766 - INFO - One-hot encoding aplicado (get_dummies) a: ['beca', 'apoyo_sociofamiliar'] 
+2026-06-11 17:30:46,768 - INFO - Variables numéricas normalizadas: ['promedio_notas', 'asistencia_porcentaje', 'ingreso_familiar', 'actividades_extracurriculares', 'horas_tarea', 'materias_reprobadas'] 
+2026-06-11 17:30:46,772 - INFO - Limpieza y preprocesamiento exitosos. Archivo guardado en c:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\abandono_escolar_procesado.csv
+2026-06-11 17:36:14,037 - INFO - --- Iniciando fase de Carga (Load) en Base de Datos ---
+2026-06-11 17:36:14,107 - INFO - package: mysql.connector.plugins
+2026-06-11 17:36:14,107 - INFO - plugin_name: caching_sha2_password
+2026-06-11 17:36:14,107 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-06-11 17:36:14,122 - INFO - Base de datos 'educacion_db' operativa.
+2026-06-11 17:36:14,311 - INFO - \u2714 Carga exitosa: 400 filas insertadas en la tabla 'educacion_db.abandono_escolar'.
+2026-06-11 17:40:56,950 - INFO - --- Iniciando fase de limpieza: Abandono Escolar ---
+2026-06-11 17:40:56,952 - INFO - Columna 'id' eliminada correctamente.
+2026-06-11 17:40:56,954 - INFO - One-hot encoding aplicado (get_dummies) a: ['beca', 'apoyo_sociofamiliar'] 
+2026-06-11 17:40:56,956 - INFO - Variables numéricas normalizadas: ['promedio_notas', 'asistencia_porcentaje', 'ingreso_familiar', 'actividades_extracurriculares', 'horas_tarea', 'materias_reprobadas'] 
+2026-06-11 17:40:56,959 - INFO - Limpieza y preprocesamiento exitosos. Archivo guardado en C:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\processed\abandono_escolar_procesado.csv
+2026-06-11 17:40:59,329 - INFO - --- Iniciando fase de Carga (Load) en Base de Datos ---
+2026-06-11 17:40:59,384 - INFO - package: mysql.connector.plugins
+2026-06-11 17:40:59,384 - INFO - plugin_name: caching_sha2_password
+2026-06-11 17:40:59,384 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-06-11 17:40:59,390 - INFO - Base de datos 'educacion_db' operativa.
+2026-06-11 17:40:59,529 - INFO - \u2714 Carga exitosa: 400 filas insertadas en la tabla 'educacion_db.abandono_escolar'.
+2026-06-11 17:41:02,204 - INFO - === Iniciando Pipeline de Procesamiento y Modelado ===
+2026-06-11 17:41:02,205 - INFO - Cargando datos desde: C:\Users\VI-Alumno\Gestion-datos-IA\src\..\data\raw\abandono_escolar_dataset.csv
+2026-06-11 17:41:02,206 - INFO - Datos cargados exitosamente. Forma del dataset: (400, 10)
+2026-06-11 17:41:02,207 - INFO - Proporción de la variable objetivo (abandono):
+abandono
+0    0.59
+1    0.41
+2026-06-11 17:41:02,207 - INFO - Iniciando preprocesamiento de datos...
+2026-06-11 17:41:02,208 - INFO - Columna 'id' eliminada.
+2026-06-11 17:41:02,209 - INFO - One-hot encoding aplicado a: ['beca', 'apoyo_sociofamiliar']
+2026-06-11 17:41:02,210 - INFO - Variables numéricas normalizadas.
+2026-06-11 17:41:02,211 - INFO - Datos divididos: Entrenamiento (280 filas), Prueba (120 filas)
+2026-06-11 17:41:02,211 - INFO - Entrenando el modelo de Regresión Logística...
+2026-06-11 17:41:02,213 - INFO - Entrenamiento finalizado.
+2026-06-11 17:41:02,213 - INFO - Evaluando el modelo con el conjunto de prueba...
+2026-06-11 17:41:02,216 - INFO - Matriz de Confusión:
+[[49 24]
+ [29 18]]
+2026-06-11 17:41:02,216 - INFO - Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+           0       0.63      0.67      0.65        73
+           1       0.43      0.38      0.40        47
+
+    accuracy                           0.56       120
+   macro avg       0.53      0.53      0.53       120
+weighted avg       0.55      0.56      0.55       120
+
